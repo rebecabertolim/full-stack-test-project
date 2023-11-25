@@ -1,13 +1,20 @@
 #nav-bar {
   background-color: #252f3d;
-  .garantia {
-    color: #fff;
-
-    font-family: Manrope;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 100%; /* 0.75rem */
-    text-transform: capitalize;
+  .coluna {
+    padding-left: 3rem;
+    .imagem {
+      width: 7%;
+      margin: 0.5rem;
+    }
+    .texto {
+      color: #fff;
+      font-family: Manrope;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 0.75rem */
+      text-transform: capitalize;
+      text-transform: uppercase;
+    }
   }
 }
