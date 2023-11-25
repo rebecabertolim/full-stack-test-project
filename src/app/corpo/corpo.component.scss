@@ -6,9 +6,12 @@
     .caixa-logo {
       display: flex;
       width: 93.75rem;
-      // padding: 1.875rem 7.9375rem;
+      padding: 1.875rem 0rem;
       justify-content: space-between;
       align-items: center;
+      .c-mc {
+        text-align: end;
+      }
     }
   }
   .r-titulo {
