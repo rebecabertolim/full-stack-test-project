@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PageLayoutComponent } from './page-layout/page-layout.component';
 import { NavBarComponent } from './page-layout/nav-bar/nav-bar.component';
 import { FooterComponent } from './page-layout/footer/footer.component';
+import { CorpoComponent } from './corpo/corpo.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { FooterComponent } from './page-layout/footer/footer.component';
     PageLayoutComponent,
     NavBarComponent,
     FooterComponent,
+    CorpoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

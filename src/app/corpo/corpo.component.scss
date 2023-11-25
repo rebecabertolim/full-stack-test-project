@@ -1,0 +1,116 @@
+#corpo {
+  .r-logo {
+    .caixa-logo {
+      display: flex;
+      width: 93.75rem;
+      padding: 1.875rem 7.9375rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .r-titulo {
+    text-align: center;
+    .titulo {
+      color: #000;
+      font-family: Manrope;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; /* 3rem */
+      text-transform: capitalize;
+    }
+  }
+  .r-subtitulo {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    .subtitulo {
+      color: #4d5254;
+      font-family: Manrope;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; /* 1.5rem */
+      text-transform: capitalize;
+    }
+  }
+  .r-steps {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .r-anuncio {
+    text-align: right;
+    .imagem {
+      width: 100%;
+    }
+    .onetime {
+      color: #2c7ef8;
+      font-family: Manrope;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 2.8rem */
+      text-transform: capitalize;
+    }
+    .texto {
+      color: #000;
+      font-family: Manrope;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      text-transform: capitalize;
+    }
+    .r-preco {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .r-vantagens {
+      padding: auto;
+      .vantagem {
+        color: #4d5254;
+        font-family: Manrope;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+      .enfase {
+        color: #4d5254;
+
+        font-weight: 700;
+      }
+    }
+    .r-cupom {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .r-button {
+      padding-bottom: 1rem;
+      .btn {
+        border-radius: 3.125rem;
+        background: #59ae43;
+        color: #fff;
+        font-family: Manrope;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        border: #59ae43;
+      }
+    }
+    .r-selo {
+      text-align: center;
+      .no {
+        color: #f82c2c;
+        font-family: Manrope;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

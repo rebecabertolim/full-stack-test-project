@@ -1,0 +1,22 @@
+#footer {
+  background-color: #252f3d;
+  .coluna {
+    padding-left: 3rem;
+    .imagem {
+      width: 3%;
+      margin: 0.5rem;
+    }
+    .texto {
+      color: #fff;
+      font-family: Manrope;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 0.75rem */
+    }
+  }
+  .direita {
+    text-align: end;
+    padding-right: 7rem;
+  }
+}
