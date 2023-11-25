@@ -19,3 +19,31 @@
     }
   }
 }
+@media (max-width: 991.98px) {
+  #nav-bar {
+    background-color: #252f3d;
+    display: flex;
+    .outros {
+      display: none;
+    }
+    .coluna {
+      text-align: center;
+      padding-left: 3rem;
+      .imagem {
+        text-align: right;
+        width: 7%;
+        margin: 0.5rem;
+      }
+      .texto {
+        color: #fff;
+        font-family: Manrope;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 0.75rem */
+        text-transform: capitalize;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

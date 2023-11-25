@@ -1,5 +1,8 @@
 #corpo {
   .r-logo {
+    .media-only {
+      display: none;
+    }
     .caixa-logo {
       display: flex;
       width: 93.75rem;
@@ -32,6 +35,9 @@
       line-height: 100%; /* 1.5rem */
       text-transform: capitalize;
     }
+  }
+  .r-steps-media-only {
+    display: none;
   }
   .r-steps {
     text-align: center;
@@ -110,6 +116,57 @@
         line-height: normal;
         text-decoration-line: underline;
         text-transform: uppercase;
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  #corpo {
+    display: flex;
+    background-color: #fcfcfc;
+
+    .r-logo {
+      justify-content: center;
+      background-color: #ffffff !important;
+      .media-only {
+        display: flex;
+        width: 93.75rem;
+        padding: 1.875rem 7.9375rem;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .caixa-logo {
+        display: none;
+      }
+    }
+    .r-subtitulo {
+      text-align: center;
+      .subtitulo {
+        color: #4d5254;
+        font-family: Manrope;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 1.5rem */
+        text-transform: capitalize;
+      }
+    }
+    .r-steps {
+      display: none;
+    }
+    .r-steps-media-only {
+      display: flex;
+      justify-content: center;
+    }
+    .r-anuncio {
+      .c-media-none {
+        display: none;
+      }
+      .c-texto {
+        .r-texto {
+          justify-content: center;
+          text-align: center;
+        }
       }
     }
   }

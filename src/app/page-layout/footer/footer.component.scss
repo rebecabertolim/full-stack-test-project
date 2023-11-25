@@ -20,3 +20,10 @@
     padding-right: 7rem;
   }
 }
+@media (max-width: 991.98px) {
+  #footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
